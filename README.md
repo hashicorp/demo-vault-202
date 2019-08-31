@@ -1,2 +1,3 @@
-# demo-vault-202
-Vault 202 lab files
+# Vault 202: Intermediate Vault Operations
+
+This repository contains the support files for Vault 202 hands-on labs.
