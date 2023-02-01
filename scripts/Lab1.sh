@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 # Create a new user, bob
 vault write auth/userpass/users/bob password="training" policies="test"
 

@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 cd /workstation/vault
 
 vault token create -policy=autounseal -format=json | jq -r ".auth.client_token" > lab6-token.txt
