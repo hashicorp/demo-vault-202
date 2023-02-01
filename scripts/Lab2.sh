@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 # Create a new namespaces
 vault namespace create education
 vault namespace create -namespace=education training
