@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 # Grant permissions on the group specific path
 # The region is specified in the group metadata
 path "group-kv/data/team/{{identity.groups.names.engineers.metadata.team}}/*" {
