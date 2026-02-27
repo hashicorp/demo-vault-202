@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 # For the purpose of education, enable raw data log
 vault audit enable file file_path=/workstation/vault/audit.log log_raw=true
 

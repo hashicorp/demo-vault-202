@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 vault login $(grep 'Initial Root Token:' /workstation/vault/key.txt | awk '{print $NF}')
 
 cd sentinel
