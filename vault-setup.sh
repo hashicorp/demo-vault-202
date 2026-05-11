@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 # For the purpose of education, enable raw data log
 vault audit enable file file_path=/workstation/vault/audit.log log_raw=true
 

@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 vault login $(grep 'Initial Root Token:' /workstation/vault/key.txt | awk '{print $NF}')
 
 cd sentinel

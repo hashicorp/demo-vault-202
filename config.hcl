@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 # Use the file storage - this will write encrypted data to disk.
 storage "file" {
   path = "/workstation/vault/data"

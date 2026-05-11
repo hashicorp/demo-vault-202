@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 # Create a new namespaces
 vault namespace create education
 vault namespace create -namespace=education training

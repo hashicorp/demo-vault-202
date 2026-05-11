@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 # Create user-tmpl policy
 vault policy write user-tmpl ./user-tmpl.hcl
 
