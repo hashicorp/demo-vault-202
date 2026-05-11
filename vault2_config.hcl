@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 storage "raft" {
   path    = "/workstation/vault/raft-node2/"
   node_id = "node2"

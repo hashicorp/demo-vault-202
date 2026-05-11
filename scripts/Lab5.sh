@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 cd /workstation/vault/terraform
 
 # Set VAULT_TOKEN env variable

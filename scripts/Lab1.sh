@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 # Create a new user, bob
 vault write auth/userpass/users/bob password="training" policies="test"
 

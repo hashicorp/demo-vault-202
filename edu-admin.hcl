@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2019, 2026
+
 # Manage namespaces
 path "sys/namespaces/*" {
    capabilities = ["create", "read", "update", "delete", "list", "sudo"]
